@@ -52,6 +52,10 @@
      color: #ffffff;
 } 
 
+.btn-purple{
+    background-color: #8ea1e1;
+}
+
 
 /*----------------
      TYPOGRAPHY
@@ -68,6 +72,11 @@ h1{
 
 h2{
     font-size: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 20px;
 }
 
 
@@ -157,19 +166,22 @@ section:nth-child(2n) {
 }
 
 section > .container {
-    display: flex;;
+    display: flex;
     
 }
 
 section .col-big {
-    width: 60%;
+    width: 70%;
     
 }
 
 section .col-small {
-    width: 40%;
-
+    width: 30%;
+    padding-top: 32px;
+    padding-right: 120px;
 }
+
+
 
 /*-----------
     FOOTER
