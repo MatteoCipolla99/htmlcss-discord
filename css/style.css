@@ -66,6 +66,10 @@ h1{
     font-size: 40px;
 }
 
+h2{
+    font-size: 30px;
+}
+
 
 
 /*----------------
@@ -121,7 +125,7 @@ header{
 .main-nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px
 }
 
@@ -154,13 +158,17 @@ section:nth-child(2n) {
 
 section > .container {
     display: flex;
+
 }
 
 section .col-big {
     width: 60%;
+    
 }
+
 section .col-small {
     width: 40%;
+
 }
 
 /*-----------
