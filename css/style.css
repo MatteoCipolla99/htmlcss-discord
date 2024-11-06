@@ -157,8 +157,8 @@ section:nth-child(2n) {
 }
 
 section > .container {
-    display: flex;
-
+    display: flex;;
+    
 }
 
 section .col-big {
@@ -214,4 +214,3 @@ footer {
 .footer-bottom .btn {
     padding: 6px 14px;
 }
-
