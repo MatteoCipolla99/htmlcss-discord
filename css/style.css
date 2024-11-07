@@ -22,15 +22,23 @@
     background-color: #d3d3d3;
 }
 
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+
 /*----------------
      BUTTONS
 -----------------*/
 
-.btn{
+.btn {
+
     border-radius: 20px;
     padding: 8px 16px;
     background-color: transparent;
-    border:none
+    border:none;
+    cursor:pointer;
 }
 
 .btn > i {
@@ -54,6 +62,7 @@
 
 .btn-purple{
     background-color: #8ea1e1;
+    color:#ffffff;
 }
 
 
@@ -165,10 +174,10 @@ section:nth-child(2n) {
     background-color: #d3d3d3;
 }
 
-section > .container {
+/* section > .container {
     display: flex;
     
-}
+} */
 
 section .col-big {
     width: 70%;
@@ -177,9 +186,27 @@ section .col-big {
 
 section .col-small {
     width: 30%;
-    padding-top: 32px;
-    padding-right: 120px;
+    /* padding-top: 32px;
+    padding-right: 120px; */
 }
+
+section .container.cols{
+    display: flex;
+}
+
+section .col-big.right{
+    text-align: right;
+}
+
+section:last-child {
+    text-align: center;
+}
+section h2{
+    margin: 22px 0;
+}
+
+
+
 
 
 
